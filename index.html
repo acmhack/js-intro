@@ -7,8 +7,13 @@
 		<style>
 			.tile {
 				outline: 1px solid black;
-				height: 24px;
-				width: 24px;
+				height: 48px;
+				width: 48px;
+			}
+
+			.row {
+				display: flex;
+				flex-direction: row;
 			}
 
 			.hit {
@@ -21,6 +26,7 @@
 		</style>
 	</head>
 	<body>
+		<h1>Score: <span id="score">0</span></h1>
 		<div id="game-board"></div>
 		<script src="script.js"></script>
 	</body>
